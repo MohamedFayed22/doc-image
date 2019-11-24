@@ -1,0 +1,51 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    text-align: center;
+    margin: 120px auto;
+}
+
+.logo img {
+    max-height: 300px;
+}
+
+.custom-file, .details, .sidebare {
+    margin: 30px auto;
+}
+
+.img-show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 15px;
+    height: 600px;
+    margin: 30px auto;
+}
+
+.sidebare {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 15px;
+    ;
+}
+
+.sidebare .block {
+    margin-bottom: 30px;
+}
