@@ -654,13 +654,6 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@chenfengyuan/vue-barcode@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@chenfengyuan/vue-barcode/-/vue-barcode-1.0.0.tgz#3cf1aa7ef31c6514fdf9426b7c9405fa40fd79d3"
-  integrity sha512-BZNCuIiFqN83rrcZeuLnErhLlIWGM6CQNnTYniw3blZt6LBIfLlIAEjbNpMT7nJvaqWFG2ZDN6dJ1dGLKllLAg==
-  dependencies:
-    jsbarcode "^3.11.0"
-
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -863,12 +856,6 @@
     "@webassemblyjs/ast" "1.8.5"
     "@webassemblyjs/wast-parser" "1.8.5"
     "@xtuc/long" "4.2.2"
-
-"@xkeshi/vue-barcode@xkeshi/vue-barcode":
-  version "1.0.0"
-  resolved "https://codeload.github.com/xkeshi/vue-barcode/tar.gz/c2b03914a9604df607edcfd72c4d77eaf41ff7f4"
-  dependencies:
-    jsbarcode "^3.9.0"
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -3725,7 +3712,7 @@ js-yaml@^3.13.1:
     argparse "^1.0.7"
     esprima "^4.0.0"
 
-jsbarcode@^3.11.0, jsbarcode@^3.9.0:
+jsbarcode@^3.5.8:
   version "3.11.0"
   resolved "https://registry.yarnpkg.com/jsbarcode/-/jsbarcode-3.11.0.tgz#20623e008b101ef45d0cce9c8022cdf49be28547"
   integrity sha512-/ozCd7wsa+VIHo9sUc03HneVEQrH7cVWfJolUT/WOW1m8mJ2e3iYZje6C9X3LFHdczlesqFHRpxLtbVsNtjyow==
@@ -3984,10 +3971,10 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.5:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.5:
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 loglevel@^1.6.4:
   version "1.6.4"
@@ -6562,6 +6549,13 @@ vue-axios@^2.1.5:
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/vue-axios/-/vue-axios-2.1.5.tgz#1af4bf1218ed71309c76afb38d0f683e312c24a7"
   integrity sha512-th5xVbInVoyIoe+qY+9GCflEVezxAvztD4xpFF39SRQYqpoKD2qkmX8yv08jJG9a2SgNOCjirjJGSwg/wTrbmA==
+
+vue-barcode@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/vue-barcode/-/vue-barcode-1.2.0.tgz#e118c38c12a77da9be03e612c60ff6832c9a3a25"
+  integrity sha512-fYY0d04VxBoNTxho+VKMXKHyfB9/o/xKLmChb0j23otaKbCRUE0tcfLKtBMLw0apsW16LeutX1EUfvy7kDt/5g==
+  dependencies:
+    jsbarcode "^3.5.8"
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
